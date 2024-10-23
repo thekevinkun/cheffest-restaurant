@@ -1,0 +1,29 @@
+.countdown .countdown__list {
+    margin-top: 2.75rem;
+    padding: 0 3rem;
+    flex-wrap: wrap;
+}
+
+.countdown .countdown__list .countdown__list-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.countdown__list-item p:first-child {
+    font-weight: 600;
+    font-size: 2.5rem;
+    color: var(--color-white);
+}
+
+.countdown__list-item p:last-child {
+    color: var(--color-gray);
+}
+
+@media screen and (max-width: 920px) { 
+    .countdown .countdown__list {
+        display: grid !important;
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        row-gap: 45px;
+    }
+}

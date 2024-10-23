@@ -1,0 +1,38 @@
+.map-container {
+    width: 500px;
+    height: 500px;
+}
+
+.map-container p {
+  color: var(--color-black);
+  font-weight: 600;
+  font-size: 0.75rem;
+}
+
+@media screen and (max-width: 850px) {
+  .map-container {
+    width: 420px;
+    height: 420px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .map-container {
+    width: 350px;
+    height: 350px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .map-container {
+    width: 310px;
+    height: 310px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .map-container {
+    width: 280px;
+    height: 300px;
+  }
+}

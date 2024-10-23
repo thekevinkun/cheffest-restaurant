@@ -1,0 +1,66 @@
+.testimonial__clients-item {
+    display: flex;
+    flex-direction: column;
+    padding: 1.45rem;
+}
+
+.testimonial__clients-item .client-profile {
+    display: flex;
+    gap: 15px;
+}
+
+.client-profile .img {
+    width: 74px;
+    height: 74px;
+}
+
+
+.profile-name h4 {
+    font-weight: 600;
+}
+
+.profile-name p {
+    color: var(--color-gray);
+    font-size: 0.875rem;
+}
+
+.client-profile .profile-name .ratings {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 0.75rem;
+}
+
+.profile-name .ratings img {
+    width: 12px;
+}
+
+.testimonial__clients-item .client-quote {
+    margin-top: 1rem;
+    position: relative;
+}
+
+.client-quote .quote {
+    position: relative;
+    font-size: 1.45rem;
+    z-index: 5;
+}
+
+.client-quote .quote-border {
+    border: 1px solid var(--color-sub-white);
+    opacity: .7;
+    width: 195px;
+    position: absolute;
+    top: 15px;
+    left: 17px;
+    z-index: 7;
+}
+
+.testimonial__clients-item .client-review {
+    margin-top: 1.75rem;
+}
+
+.testimonial__clients-item .client-review p {
+    color: var(--color-sub-white);
+}
+

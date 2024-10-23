@@ -1,0 +1,58 @@
+.section__padding {
+    padding: 4rem 6rem;
+}
+
+.flex__center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex__between {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.app__bg-sub {
+    background-color: #0D0D0D;
+    opacity: 1;
+    background-image:  repeating-radial-gradient( circle at 0 0, transparent 0, #0D0D0D 6px ), repeating-linear-gradient( #13131355, #1c1c1c );
+}
+
+.glassmorphism {
+    /* From https://css.glass */
+    background: rgba(25, 25, 25, 0.15);
+    border-radius: 12px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border: 1px solid rgba(25, 25, 25, 0.30);
+}
+
+.glassmorphism-menu {
+    /* From https://css.glass */
+    background: rgba(25, 25, 25, 0.65);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+}
+
+@media screen and (max-width: 850px) { 
+    .section__padding {
+        padding: 4rem;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .section__padding {
+      padding: 4rem 2rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .section__padding {
+      padding: 2rem;
+    }
+}
+  

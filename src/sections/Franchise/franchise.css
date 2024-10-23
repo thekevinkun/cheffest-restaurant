@@ -1,0 +1,9 @@
+.franchise p {
+    color: var(--color-sub-white);
+    text-align: center;
+    margin-top: 0.75rem;
+}
+
+.franchise .franchise__features {
+    margin-top: 2.75rem;
+}

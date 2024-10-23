@@ -1,0 +1,25 @@
+.subscribe {
+    color: #000;
+    background-color: #fff;
+}
+
+.subscribe .subscribe__features {
+    max-width: 786px;
+    margin: 0 auto;
+    margin-top: 2.75rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+}
+
+@media screen and (max-width: 850px) {
+    .subscribe .subscribe__features {
+        max-width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .subscribe__features button {
+        width: 100%;
+    }
+}
