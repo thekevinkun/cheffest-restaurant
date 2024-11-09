@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/cheffest-restaurant/static/css/main.24819d54.css",
-    "main.js": "/cheffest-restaurant/static/js/main.12ba3480.js",
+    "main.css": "/cheffest-restaurant/static/css/main.89eeedd4.css",
+    "main.js": "/cheffest-restaurant/static/js/main.7202f914.js",
     "static/media/video.mp4": "/cheffest-restaurant/static/media/video.c1ec96e8efbf27abca59.mp4",
     "static/media/bg-hero-2.jpg": "/cheffest-restaurant/static/media/bg-hero-2.6d62e0bed3e8931ae820.jpg",
     "static/media/bg-hero.png": "/cheffest-restaurant/static/media/bg-hero.374824da8b8e1da53929.png",
-    "static/media/chef-video.png": "/cheffest-restaurant/static/media/chef-video.a51e9cca6c2b0058e4b8.png",
+    "static/media/video-poster.png": "/cheffest-restaurant/static/media/video-poster.1b59be4efd817fe1e4c4.png",
     "static/media/map.png": "/cheffest-restaurant/static/media/map.7b05f060709e2ab32551.png",
     "static/media/menu-1.png": "/cheffest-restaurant/static/media/menu-1.15a66caad2a6c62cb698.png",
     "static/media/menu-3.png": "/cheffest-restaurant/static/media/menu-3.38624a44206c7eda71a9.png",
@@ -17,11 +17,11 @@
     "static/media/client-3.png": "/cheffest-restaurant/static/media/client-3.ab7c79653074d688995b.png",
     "static/media/client-2.png": "/cheffest-restaurant/static/media/client-2.9d93dadffd6647732554.png",
     "index.html": "/cheffest-restaurant/index.html",
-    "main.24819d54.css.map": "/cheffest-restaurant/static/css/main.24819d54.css.map",
-    "main.12ba3480.js.map": "/cheffest-restaurant/static/js/main.12ba3480.js.map"
+    "main.89eeedd4.css.map": "/cheffest-restaurant/static/css/main.89eeedd4.css.map",
+    "main.7202f914.js.map": "/cheffest-restaurant/static/js/main.7202f914.js.map"
   },
   "entrypoints": [
-    "static/css/main.24819d54.css",
-    "static/js/main.12ba3480.js"
+    "static/css/main.89eeedd4.css",
+    "static/js/main.7202f914.js"
   ]
 }
