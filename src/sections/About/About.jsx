@@ -1,7 +1,7 @@
 import { useState, useRef } from "react";
 import { BsFillPlayFill, BsPauseFill } from "react-icons/bs";
 
-import { video } from "../../constants";
+import { images, video } from "../../constants";
 
 import "./about.css";
 
@@ -34,12 +34,13 @@ const About = () => {
         <div className="about__video">
           <video
             ref={videoRef}
-            src={video}
-            type="video/mp4"
             loop
             controls={false}
-            muted
-          />
+            poster={images.videoPoster}
+            preload="none"
+            playsInline>  
+            <source src={video} type="video/mp4" />
+          </video>
 
           <div className="about__video-overlay flex__center">
             <div

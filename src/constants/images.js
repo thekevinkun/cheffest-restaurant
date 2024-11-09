@@ -1,6 +1,6 @@
 import logo from "../assets/logo.png";
 import bgHero from "../assets/bg-hero.png";
-import chefVideo from "../assets/chef-video.png";
+import videoPoster from "../assets/video-poster.png";
 import menu1 from "../assets/menu-1.png";
 import menu2 from "../assets/menu-2.png";
 import menu3 from "../assets/menu-3.png";
@@ -19,7 +19,7 @@ import mastercard from "../assets/mastercard.png";
 export default {
     logo,
     bgHero,
-    chefVideo,
+    videoPoster,
     menu1,
     menu2,
     menu3,

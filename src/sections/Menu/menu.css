@@ -2,6 +2,10 @@
     padding: 4rem 0;
 }
 
+.menu h2 {
+    padding: 0 6rem;
+}
+
 .menu__content-options {
     display: flex;
     flex-wrap: wrap;
@@ -51,6 +55,10 @@
 }
 
 @media screen and (max-width: 850px) { 
+    .menu h2 {
+        padding: 0 4rem;
+    }
+
     .menu__content-list {
         display: none;
     }
@@ -70,6 +78,10 @@
 }
 
 @media screen and (max-width: 650px) {
+    .menu h2 {
+        padding: 0 2rem;
+    }
+
     .menu__content {
         padding-top: 2.25rem !important;
     }
@@ -88,5 +100,11 @@
         cursor: pointer;
         font-weight: 600;
         border-bottom: none;
+    }
+}
+
+@media screen and (max-width: 480px) { 
+    .menu {
+        padding: 2rem 0;
     }
 }

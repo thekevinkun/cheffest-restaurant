@@ -10,3 +10,9 @@
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     gap: 18px;
 }
+
+@media screen and (max-width: 705px) {
+    .testimonial__clients {
+        grid-template-columns: 1fr;
+    }
+}

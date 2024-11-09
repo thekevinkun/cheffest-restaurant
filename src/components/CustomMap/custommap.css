@@ -23,16 +23,16 @@
   }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 410px) {
   .map-container {
-    width: 310px;
-    height: 310px;
+    width: 280px;
+    height: 300px;
   }
 }
 
 @media screen and (max-width: 350px) {
   .map-container {
-    width: 280px;
+    width: 250px;
     height: 300px;
   }
 }

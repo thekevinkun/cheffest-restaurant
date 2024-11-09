@@ -107,4 +107,14 @@
     .footer__links-list_item-bank img {
         width: 72px;
     }
+
+    .footer__contacts .copyright {
+        font-size: 0.785rem;
+    }
+}
+
+@media screen and (max-width: 332px) {
+    .footer__links-list_item-bank img {
+        width: 62px;
+    }
 }
