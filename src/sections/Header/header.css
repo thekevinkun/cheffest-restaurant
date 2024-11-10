@@ -79,6 +79,10 @@
 }
 
 @media screen and (max-width: 480px) {
+    .header__text {
+        padding-top: 17rem !important;
+    }
+    
     .header__text h1 {
         font-size: 2.5rem;
     }
@@ -87,5 +91,53 @@
 @media screen and (max-width: 375px) {
     .header__text {
         padding-top: 16rem !important;
+    }
+
+    .header__text h1 {
+        font-size: 2.15rem;
+    }
+
+    .header__text p {
+        font-size: 0.75rem;
+    }
+}
+
+@media screen and (max-width: 768px) and (max-height: 700px) {
+    .header__text {
+        padding-top: 15rem !important;
+    }
+}
+
+@media screen and (max-width: 768px) and (max-height: 600px) {
+    .header__text h1 {
+        font-size: 2.65rem !important;
+    }
+}
+
+@media screen and (max-width: 480px) and (max-height: 600px) {
+    .header__text {
+        padding-top: 14rem !important;
+    }
+
+    .header__text h1 {
+        font-size: 2rem !important;
+    }
+
+    .header__text p {
+        font-size: 0.75rem !important;
+    }
+}
+
+@media screen and (max-width: 320px) and (max-height: 600px) {
+    .header__text {
+        padding-top: 14rem !important;
+    }
+
+    .header__text h1 {
+        font-size: 1.5rem !important;
+    }
+
+    .header__text p {
+        font-size: 0.675rem !important;
     }
 }

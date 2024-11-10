@@ -7,9 +7,3 @@
 .franchise .franchise__features {
     margin-top: 2.75rem;
 }
-
-@media screen and (max-width: 412px) {
-    .franchise p {
-        font-size: 0.825rem;
-    }
-}

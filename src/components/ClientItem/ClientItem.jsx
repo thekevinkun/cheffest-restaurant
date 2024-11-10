@@ -16,7 +16,7 @@ const ClientItem = ({name, image, job, rating, review}) => {
   return (
     <div className="glassmorphism testimonial__clients-item">
         <div className="client-profile">
-            <img src={image} alt="Client" />
+            <img src={image} alt="Client" className="profile-picture" />
 
             <div className="profile-name">
                 <h4>{name}</h4>

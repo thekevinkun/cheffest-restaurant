@@ -9,12 +9,6 @@
     gap: 15px;
 }
 
-.client-profile .img {
-    width: 74px;
-    height: 74px;
-}
-
-
 .profile-name h4 {
     font-weight: 600;
 }
@@ -64,3 +58,18 @@
     color: var(--color-sub-white);
 }
 
+@media screen and (max-width: 375px) {
+    .client-profile .profile-picture {
+        width: 60px;
+        height: 60px;
+    }
+
+    .client-quote .quote-border {
+        width: 175px;
+    }
+
+    .profile-name p,
+    .testimonial__clients-item .client-review p {
+        font-size: 0.75rem;
+    }
+}

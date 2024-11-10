@@ -49,3 +49,29 @@
         width: 200px;
     }
 }
+
+@media screen and (max-width: 375px) { 
+    .menu__content-list_item img {
+        width: 165px;
+    }
+
+    .menu__content-list_item .item-info h3 {
+        font-size: 1rem;
+    }
+
+    .menu__content-list_item .item-info p {
+        font-size: 0.75rem;
+    }
+
+    .item-info .item-info_price p {
+        font-size: 1rem;
+    }
+
+    .item-info .item-info_price .item-cart {
+        width: 38px;
+        height: 38px;
+    }
+    .item-info_price .item-cart .cart {
+        font-size: 1.15rem;
+    }
+}

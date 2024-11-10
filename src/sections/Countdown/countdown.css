@@ -32,6 +32,6 @@
     .countdown .countdown__list {
         padding: 0 2rem;
         grid-template-columns: 1fr;
-        row-gap: 35px;
+        row-gap: 40px;
     }
 }
